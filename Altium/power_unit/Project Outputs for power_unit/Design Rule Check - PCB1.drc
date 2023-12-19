@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\misha\bmstu\AltiumBMSTU\tks_kur\Altium\power_unit\PCB1.PcbDoc
-Date     : 17.12.2023
-Time     : 18:28:42
+Date     : 18.12.2023
+Time     : 21:48:46
 
 Processing Rule : Clearance Constraint (Gap=0.125mm) (All),(All)
 Rule Violations :0
@@ -15,7 +15,7 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.125mm) (Max=10mm) (Preferred=0.254mm) (All)
+Processing Rule : Width Constraint (Min=0.75mm) (Max=5mm) (Preferred=1mm) (All)
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.2mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (All)
@@ -52,15 +52,12 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.25mm) Between Board Edge And Text "R1" (56.947mm,125.578mm) on Top Overlay 
-Rule Violations :1
+Rule Violations :0
 
-Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
-   Violation between Height Constraint: Small Component DA1-L7809ABV (56.515mm,53.975mm) on Top Layer Actual Height = 26.06mm
-   Violation between Height Constraint: Small Component VT1-TIP121G (86.995mm,121.92mm) on Top Layer Actual Height = 26.06mm
-Rule Violations :2
+Processing Rule : Height Constraint (Min=0mm) (Max=50mm) (Prefered=12.7mm) (All)
+Rule Violations :0
 
 
-Violations Detected : 3
+Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:04
