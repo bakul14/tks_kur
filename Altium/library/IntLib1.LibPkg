@@ -80,6 +80,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[SearchPath1]
+Path=D:\misha\bmstu\AltiumBMSTU\tks_kur\Altium\library\IntLib1\*.*
+IncludeSubFolders=1
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
